@@ -110,3 +110,35 @@ body {
   width: 30px;
   height: 30px;
 }
+
+#github-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+#conteudo {
+  border-radius: 20px;
+  background-color: white;
+}
+#conteudo p {
+  margin: 20px 0;
+  padding: 0 20px;
+  width: 100%;
+  text-align: end;
+}
+#conteudo p a {
+  text-decoration: none;
+}
+#avatar {
+  display: flex;
+  flex-direction: column;
+}
+#avatar h2 {
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  padding: 5px 20px;
+}
+#avatar img {
+  border-radius: 10px 10px 0 0;
+}
