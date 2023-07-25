@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tarefa 4 - Enzo Furegatti Spinella - 14568198</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="topo">
+  <div id="topo-titulo">
+    <h2>Tarefa 2 - CSS</h2>
+    <h1>Enzo F. Spinella</h1>
+  </div>
+  <div id="topo-conteudo">
+    <a href="#sobre-mim">Sobre mim</a>
+    <a href="#musicas">Músicas Favoritas</a>
+    <a href="#animes">Animes Favoritos</a>
+    <a href="#aprendi">O que aprendi</a>
+    <a href="#css">CSS</a>
+    <button id="dark-light-mode" onclick="changeDarkLightMode()"><h3>Dark Mode</h3><img src="https://www.svgrepo.com/show/309493/dark-theme.svg"/></button>
+  </div>
+</div>
+
+<div id="sobre-mim" class="secao">
+  <h1 class="titulos">Sobre mim</h1>
+  <div class="descricoes">
+    <p>Olá, meu nome é Enzo e entrei no BCC este ano, em 2023. Fiz o Ensino médio integrado ao Ensino Técnico em Informática no Colégio Técnico de Campinas, o COTUCA. Já trabalhei com programação ano passado e entrei no curso aqui na USP para aprimorar meus conhecimentos e ter uma vivência acadêmica, para além da graduação</p>
+    <p>Amo jogar games, ainda que não mande bem. Gosto de uma boa história e meu sonho principal é trabalhar com jogos no Japão</p>
+  </div>
+  <img src="https://pbs.twimg.com/media/FA3bsTkXsAAaRN9.jpg" />
+</div>
+
+<div class="secao" id="musicas">
+  <h1 class="titulos">Músicas Favoritas</h1>
+  <ul class="listas">
+    <li>
+      <h2 class="titulo-card">LA Devotee - Panic! At the Disco</h2>
+      <img src="https://www.vagalume.com.br/dynimage/news30567-big.jpg" />
+    </li>
+    <li>
+      <h2 class="titulo-card">Misery Business - Paramore</h2>
+      <img src="https://jpimg.com.br/uploads/2017/11/archives/2015/06/02/2529161179-hayley-williams-no-clipe-de-misery-business.jpg" />
+    </li>
+    <li>
+      <h2 class="titulo-card">Golden Days - Panic! At the Disco</h2>
+      <img src="https://i.ytimg.com/vi/VWR0fSFRbao/maxresdefault.jpg" />
+    </li>
+    <li>
+      <h2 class="titulo-card">One More Light - Linkin Park</h2>
+      <img src="https://i.ytimg.com/vi/D2xxg7CW4JQ/maxresdefault.jpg" />
+    </li>
+    <li>
+      <h2 class="titulo-card">Only Exception - Paramore</h2>
+      <img src="https://i.pinimg.com/originals/76/94/3d/76943d1144074245797f77230fe6a191.jpg" />
+    </li>
+    <li>
+      <h2 class="titulo-card">Photograph - Ed Sheeran</h2>
+      <img src="https://i.ytimg.com/vi/jsiZcCGFHvE/maxresdefault.jpg" />
+    </li>
+    <li>
+      <h2 class="titulo-card">Future Days - Pearl Jam</h2>
+      <img src="https://i.ytimg.com/vi/QtFf44cWDyQ/maxresdefault.jpg" />
+    </li>
+    <li>
+      <h2 class="titulo-card">Demons - Imagine Dragons</h2>
+      <img src="https://www.pluggedin.com/wp-content/uploads/2020/01/demons-imagine-dragons-review-image-1200x688.jpg" />
+    </li>
+    <li>
+      <h2 class="titulo-card">Hikaru Nara</h2>
+      <img src="https://pic-bstarstatic.akamaized.net/ugc/4fb142b4ddb0b22b95ee5f3259cc5c20.jpg" />
+    </li>
+  </ul>
+</div>
+
+<div id="animes" class="secao">
+  <h1 class="titulos">Animes Favoritos</h1>
+  <ul class="listas">
+    <li>
+      <h2 class="titulo-card">Dragon Ball</h2>
+      <img src="https://conteudo.imguol.com.br/c/entretenimento/34/2017/03/30/dragon-ball-super-1490895862584_v2_900x506.jpg" />
+    </li>
+    <li>
+      <h2 class="titulo-card">Death Note</h2>
+      <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/97129a46f2418ffe5a67ec64f49a3038.jpe" />
+    </li>
+    <li>
+      <h2 class="titulo-card">Naruto</h2>
+      <img src="https://criticalhits.com.br/wp-content/uploads/2018/08/sakura-naruto-sasuke-team-7-01.jpg" />
+    </li>
+    <li>
+      <h2 class="titulo-card">Parasyte</h2>
+      <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/a1b9e0783210f940b383626b224e8827.jpe" />
+    </li>
+    <li>
+      <h2 class="titulo-card">Shingeki no Kyojin</h2>
+      <img src="https://viciados.net/wp-content/uploads/2020/11/SNKCapa.jpg" />
+    </li>
+    <li>
+      <h2 class="titulo-card">Hataraku Saibou</h2>
+      <img src="https://pic-bstarstatic.akamaized.net/ugc/c71fc924599cd150d117ee62b10c6ee4.jpg" />
+    </li>
+  </ul>
+</div>
+
+<div id="aprendi" class="secao"> 
+  <h1 class="titulos">O que aprendi na Aula 1</h1>
+  <div class="descricoes">
+    <p>
+      Aprendemos sobre as Tags Básicas: img, h1, h2, ..., listas (ul, ol), br.
+    </p>
+    <p>Também vimos a história do HTML e o que ele é, conceitualmente.
+  </div>
+  <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHRtbHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" />
+</div>
+
+<div id="css" class="secao">
+  <h1 class="titulos">CSS - Conceitos</h1>
+  <div class="descricoes">
+    <p>É o estilo da página, o que modifica o tamanho da font dos textos, a imagem do fundo da página, entre outras coisas.</p>
+    <p>Na aula, aprendemos sobre algumas das principais tags de estilo do css, os seletores, como conectar o arquivo html com o arquivo css e, por fim, sobre o box model, um tipo de organização de layout de cada elemento html.</p>
+  </div>
+  <img src="https://images.unsplash.com/photo-1505685296765-3a2736de412f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y3NzfGVufDB8fDB8fHww&w=1000&q=80" />
+</div>
+
+ <a href="#topo" id="voltar">VOLTAR</a>
+<!-- partial -->
+  
+</body>
+</html>
